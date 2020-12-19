@@ -1,4 +1,9 @@
+{% if post.image_url %}
+<div class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} rounded-1 p-3"
+style="background-image:url({{post.image_url}});background-size: cover; background-position: center center">
+{% else %}
 <div class="height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
+{% endif %}
   <div class="d-flex flex-justify-between flex-items-start mb-1">
     <h1 class="f4 lh-condensed mb-1">
       <a href="{{ site.baseurl }}{{ post.url }}">
