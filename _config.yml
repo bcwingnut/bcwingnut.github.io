@@ -7,7 +7,7 @@ plugins:
   - jemoji
 
 permalink: /:year/:month/:day/:title/
-
+google_analytics: G-DS2J0ZVN1K
 defaults:
   -
     scope:
