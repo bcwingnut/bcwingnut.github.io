@@ -3,7 +3,7 @@ title: "Image Classification with Machine Learning"
 keywords: [Machine Learning, Computer Vision]
 ---
 
-This is a conclusion of my final project for CS 200: Principles and Techniques of Data Science at UC Berkeley with [Cem Koç](http://cemkoc.me/).
+This is a conclusion of my final project for CS 200: Principles and Techniques of Data Science at UC Berkeley with [Cem Koç](http://cemkoc.me/). We received 100 out of 100 points for this project, while the average score is 91.59.
 Our PDF Report can be accessed [here](/assets/DATA200_Report.pdf).
 
 We applied supervised and unsupervised techniques for general multi-class classification to a dataset containing 20 labels. The images were processed and featurized using a variety of image processing techniques after doing an exhaustive exploratory data analysis. 
