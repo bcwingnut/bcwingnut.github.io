@@ -2,6 +2,7 @@ layout: sidebar
 style: light
 
 plugins:
+  - jekyll-sitemap
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
