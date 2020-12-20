@@ -1,11 +1,15 @@
 ---
 title: "ROAR: Robot Open Autonomous Racing"
-published: True
 # image_url: /assets/ROAR-bg.png
+keywords: [Autonomous Driving, Computer Vision]
 ---
 
-For the final project of EECS 206A at UC Berkeley in Fall 2020, my project team participated in [Berkeley’s ROAR competition](https://vivecenter.berkeley.edu/research1/roar/), in which teams race 1/10th scale self-driving cars around a track and compete for various prizes. We were fortunate enough to win the Grand Prize in this year’s *2020 ROAR S1 series* and have published [our code](https://github.com/bcwingnut/ROAR) on GitHub.
+For the final project of EECS 206A at UC Berkeley in Fall 2020, I participated in [Berkeley’s ROAR competition](https://vivecenter.berkeley.edu/research1/roar/) with four other students. In this year, eight teams raced their autonomous AI agents around a track. We won the Grand Prize in *2020 ROAR S1 series*. I led the perception part of this project, designed and implemented the lane detector and the lane following planner, and assisted with obstacle detection. For more information, please check out our [GitHub repository](https://github.com/bcwingnut/ROAR), [slides](/assets/ROAR_Presentation.pdf) and [website](https://asdegoyeneche.github.io/ROAR/).
 
-The website of our final project is [here](https://asdegoyeneche.github.io/ROAR/).
+Here is a video of a full loop with lane following:
 
-<img src="/assets/ROAR.png" class="width-full"/>
+{% include youtube-player.html id="4MHrVrw2o-c" %}
+
+Without lane following:
+
+{% include youtube-player.html id="dmzFhMcds9c" %}

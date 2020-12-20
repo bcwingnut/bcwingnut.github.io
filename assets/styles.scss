@@ -56,3 +56,12 @@
 .bg-white-50 {
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.topic-tag {
+  display: inline-block;
+  padding: .2em .4em;
+  // margin: 0 .5em .5em 0;
+  white-space: nowrap;
+  background-color: rgb(241, 248, 255);
+  border-radius: 6px;
+}

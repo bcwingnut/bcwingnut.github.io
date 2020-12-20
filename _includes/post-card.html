@@ -11,5 +11,12 @@ style="background-image:url({{post.image_url}});background-size: cover; backgrou
       </a>
     </h1>
   </div>
-  <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
+  <div class="text-gray ws-normal">
+    {% for keyword in post.keywords %}
+      <p class="topic-tag">
+        {{ keyword }}
+      </p>
+    {% endfor %}
+  </div>
+  <div class="text-gray ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
 </div>
