@@ -31,7 +31,7 @@
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        {{ user.location }}
+        <a href="https://www.google.com/maps/place/{{user.location}}"> {{user.location }} </a>
       </div>
     {% endif %}
     {% if site.social_media %}
