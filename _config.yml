@@ -46,6 +46,9 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
+bio:
+    Sihao (Benny) Chen is a Master's student in Electrical Engineering and Computer Science at UC Berkeley. He is doing research under Professor Brian A. Barsky and is interested in artificial intelligence, machine learning, computer vision, self-driving cars, and web development.
+
 # topics:
 #   - name: Reinforcement Learning
 #     web_url: https://github.com/topics/reinforcement-learning
