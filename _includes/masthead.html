@@ -11,7 +11,7 @@
 </p>
 
 {% if include.metadata %}
-  <div class="f4 mb-6">
+  <div class="f4 mb-0">
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
@@ -50,5 +50,7 @@
     <!-- {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %} -->
+    <a href="/resume" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2 mr-2">Resume</a>
+    <a href="/about" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2 mr-2">About me</a>
   </div>
 {% endif %}
