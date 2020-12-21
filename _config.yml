@@ -8,7 +8,7 @@ plugins:
   - jemoji
 
 permalink: /:year/:month/:day/:title/
-url: sihao.dev
+#url: sihao.dev
 google_analytics: G-DS2J0ZVN1K
 defaults:
   -
