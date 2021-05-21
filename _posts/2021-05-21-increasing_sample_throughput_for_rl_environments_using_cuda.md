@@ -1,5 +1,5 @@
 ---
-title: Increasing Sample Throughput for RL Environments
+title: Increasing Sample Throughput for RL Environments using CUDA
 published: True
 keywords: [Reinforcement Learning]
 ---
