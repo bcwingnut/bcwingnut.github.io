@@ -6,7 +6,7 @@ keywords: [Reinforcement Learning]
 
 ## Internship at MSRA
 
-I did an internship at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) this spring, working directly with the Bing team to improve the performance of their search engine. I was mentored by [Dr. Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/).
+I did an internship at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) this spring, working directly with the Bing team to improve the performance of their search engine. I was mentored by [Dr. Qi Chen](https://www.microsoft.com/en-us/research/people/cheqi/). Our paper is published in the [Proceedings of the Web Conference 2021](https://dl.acm.org/doi/fullHtml/10.1145/3442381.3449862).
 
 My work was using reinforcement learning to generate match plans, a data structure used by the Inverted Index system to match web documents from a large document set. I proposed a new model that learns from the suboptimal match plans provided by Bing production team to generate match plans with better performance. My model was tested on Microsoft Bing’s simulation environment and is able to improve the quality of search results by over 50%. My proposal has been approved and is being transferred to production.
 
